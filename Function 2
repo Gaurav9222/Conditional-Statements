@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int find_lcm(int, int);   // function prototype declaration
+
+int main()
+{
+  int a, b, lcm;
+    printf("\n\nEnter 2 integers to find LCM of:\n");
+    scanf("%d%d", &a, &b);
+    lcm = find_lcm(a,b);    // function call
+    printf("\n\n LCM of %d and %d is: %d\n\n", a, b, lcm);
+    printf("\n\n\t\t\t  !\n\n\n");
+    return 0;
+}
